@@ -5,10 +5,6 @@ require("dotenv").config();
 const app = express();
 const router = express.Router();
 
-
-
-
-//routes
 app.get("/", (req, res) => {
   res.status(200).json({
     message: " working",
